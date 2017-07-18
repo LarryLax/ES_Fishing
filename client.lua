@@ -215,7 +215,7 @@ Citizen.CreateThread(
 				if (Vdist(playerPos.x, playerPos.y, playerPos.z, x, y, z) < 2.0) then
 						DisplayHelpText(txt[lang]['sellFish'])
 					if (IsControlJustReleased(1, 51)) then
-						TriggerEvent("player:sellItem2", 15, 30)
+						TriggerEvent("player:sellItem", 15, 30)
 					end
 				end
 			end
