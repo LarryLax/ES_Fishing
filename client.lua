@@ -2,8 +2,8 @@
 -- E  D  I  T --
 ----------------
 
-local StartFishing_KEY = 57 -- F10 
-local Caught_KEY = 201 -- ENTER
+local StartFishing_KEY = 57 -- E 
+local Caught_KEY = 201 -- SPACE
 local SuccessLimit = 0.09 -- Maxim 0.1 (high value, low success chances)
 local AnimationSpeed = 0.0015
 local ShowChatMSG = true -- or false
